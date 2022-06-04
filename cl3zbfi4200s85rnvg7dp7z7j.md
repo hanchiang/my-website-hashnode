@@ -6,7 +6,7 @@ Being a software developer means that I spend most of my time writing code to bu
 
 As much as I position myself to be a product engineer that delivers product features to solve user needs, there is little visibility of the impact on end-users, which is reasonable because the analytics part of the work will be typically handled by a product manager or analytics manager.
 
-I wanted to gain a first-hand experience in setting up simple analytics to track custom events in order to understand user behaviour. What better tool to start than the ubiquitous [Google Analytics](https://analytics.google.com/analytics/web/)?
+I wanted to gain a first-hand experience in setting up simple analytics to track custom events in order to understand user behaviour. What better tool to start with than the ubiquitous [Google Analytics](https://analytics.google.com/analytics/web/), and [Venture bites](https://yaphc.com/project-venturebites-a-portal-for-asia-tech-startup-events)?
 
 ## Set up Google Analytics
 
