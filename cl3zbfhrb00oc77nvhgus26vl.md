@@ -2,13 +2,18 @@
 
 Previously: [Why Blog with ghost platform?](https://www.yaphc.com/blog-ghost-platform/)
 **2020 update:** _I have moved from ghost to WordPress, because I value the inclusiveness of the writing experience from WordPress and my chosen theme, instead of having to do some hackarounds for common features such as social links._
+
 I discussed some of the merits and drawbacks of using the ghost platform from my own personal experience. In this post, I will talk about the approach that I use to bring my ghost website from a localhost development environment to a live website hosted on [Netlify](https://www.netlify.com/), a static web host.
 
 # Why static website, and with ghost?
 
 ## Static website
 
-First, a static website is a website that consist of just a bunch of `HTML` files, together with `CSS` and `JS` assets. Think of the olden days where websites display the same content to every user. Every time a new piece of content needs to be added to the website, they are manually written into the these files. When a user visits your website, the relevant files are directly served to them without the need for a server to generate them on the fly because there is no database.
+First, a static website is a website that consists of just a bunch of `HTML` files, together with `CSS` and `JS` assets.
+
+Think of the olden days when websites display the same content to every user. Every time a new piece of content needs to be added to the website, they are manually written into these files.
+
+When a user visits your website, the relevant files are directly served to them without the need for a server to generate them on the fly because there is no database.
 
 
 **Static vs dynamic website**
@@ -97,4 +102,6 @@ Namecheap custom DNS
 
 ## In closing
 
-Ghost comes with an elegant user interface which allows us to write content peacefully. Hosting ghost as a static website is free and comes with other perks such as fast loading speed(SEO), more secure and able to handle huge traffic volumes if a post becomes viral overnight **Note**: The scripts to generate a static website can be found [here](https://github.com/hanchiang/ghost-convert-static-website). They are generously commented. Feel free to check it out and leave some feedback if you have tried them.
+Ghost comes with an elegant user interface that allows us to write content peacefully. Hosting ghost as a static website is free and comes with other perks such as fast loading speed(SEO), more secure and able to handle huge traffic volumes if a post becomes viral overnight.
+
+**Note**: The scripts to generate a static website can be found [here](https://github.com/hanchiang/ghost-convert-static-website). They are generously commented. Feel free to check it out and leave some feedback if you have tried them.
