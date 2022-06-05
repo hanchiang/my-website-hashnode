@@ -6,11 +6,13 @@ I was actively working on it for 2 months to get the system up and running. As o
 
 Here are some screen captures:
 
-[![](https://www.yaphc.com/wp-content/uploads/2021/06/venturebites-home-page-1024x495.png)](https://www.yaphc.com/wp-content/uploads/2021/06/venturebites-home-page.png)
 
-[![](https://www.yaphc.com/wp-content/uploads/2021/06/venturebites-home-page-2-1024x481.png)](https://www.yaphc.com/wp-content/uploads/2021/06/venturebites-home-page-2.png)
+![venturebites home page](https://cdn.hashnode.com/res/hashnode/image/upload/v1654394271704/MEOxsIoKj.png align="left")
 
-[![](https://www.yaphc.com/wp-content/uploads/2021/06/venturebites-home-page-3-1024x386.png)](https://www.yaphc.com/wp-content/uploads/2021/06/venturebites-home-page-3.png)
+![venturebites home page 2](https://cdn.hashnode.com/res/hashnode/image/upload/v1654394618921/f0R9sqNSL.png align="left")
+
+
+![venturebites home page 3](https://cdn.hashnode.com/res/hashnode/image/upload/v1654394773370/KVA9mSvFG.png align="left")
 
 ## How venturebites started
 
@@ -24,9 +26,10 @@ From the events side, we have [Eventbrite](https://www.eventbrite.com/), [TechIn
 
 ## System architecture
 
-[![](https://www.yaphc.com/wp-content/uploads/2021/06/system-architecture-946x1024.png)](https://www.yaphc.com/wp-content/uploads/2021/06/system-architecture.png)
 
-This is the architecture of Venturebites, which is rather simple.
+![venturebites system architecture](https://cdn.hashnode.com/res/hashnode/image/upload/v1654395415530/D4lXcJrtP.png align="left")
+
+This is the architecture of Venturebites, which is quite simple.
 
 On the backend, there is a background job that runs on a schedule on my machine, and an API service that serves queries. Both of them are built with typescript, on node.js.
 
@@ -50,12 +53,14 @@ For e27, there is an API to retrieve events and another API to retrieve event de
 
 Here's what an event looks like:
 
+```
 {
   datestart: "2021-02-03 13:00:00",
   dateend: "2021-02-05 09:00:00",
   timezone: "(GMT+08:00) Kuala Lumpur, Singapore"
   // some other fields
 }
+```
 
 If I remember correctly, the timezone of the datetime is stored according to the event's location. Anyone viewing that event outside that timezone will see the wrong time.
 
@@ -87,6 +92,7 @@ Also, the data for the event and event detail are available in the same API, whi
 
 Here's what an event looks like:
 
+```
 {
   event\_start\_dt\_utc\_tz: "20210224T080000Z",
   event\_end\_dt\_utc\_tz: "20210224T090000Z",
@@ -94,6 +100,7 @@ Here's what an event looks like:
   event\_duration\_time\_sgt: "4:00PM to 5:00PM (GMT+8)",
   // some other fields
 }
+```
 
 It returns both the local and UTC time. The UTC time can be easily formatted according to users' timezone.
 
@@ -109,25 +116,29 @@ Instead, data has to be scraped from the html source. While webscraping is flexi
 
 Here's what an event look like:
 
+```
 {
   startDate: "Wednesday, January 13, 2021",
   endDate: "Thursday, January 14, 2021",
   // some other fields
 }
+```
 
 After retrieving the event data which contains only the date, I visit the event detail page to extract the time and offset, which looks something like:
 
+```
 {
   startTime: "11:00AM",
   endTime: "12:00PM",
   utcOffset: "+8"
 }
+```
 
 Turns out that the way SGInnovate manage timezone and offset is similar to e27.
 
 #### Thoughts on SGInnovate's scraping
 
-This is the most tedious of all, because there is no real time feedback from webscraping, unlike an API call which returns after 1 second.
+This is the most tedious of all, because there is no real-time feedback from web scraping, unlike an API call that returns after 1 second.
 
 It easily takes anywhere from 10 to 30 seconds just to get the first page of events. Then I need to inspect the HTML element to find the correct tags to extract the relevant data, `console.log` it out to check whether it worked.
 
@@ -145,19 +156,19 @@ I am not a frontend guy, but have worked with react, redux, and a little on reac
 
 This topic of [static generation vs server side generation](https://betterprogramming.pub/server-side-rendering-vs-static-site-generation-53a34872728c) has got me confused for a long time.
 
-In short, server side generation is what we think of the old school way of building websites. Each page request causes the server to dynamically render the page, and the browser performs a full refresh.
+In short, server-side generation is what we think of as the old-school way of building websites. Each page request causes the server to dynamically render the page, and the browser performs a full refresh.
 
-Static generation is still server-side generation, but it is done at **build time**, instead of run time. This is the method used for websites build on [JAMstack](https://jamstack.org/).
+Static generation is still server-side generation, but it is done at **build time**, instead of run time. This is the method used for websites built on [JAMstack](https://jamstack.org/).
 
-With react however, we can combine the best of both worlds, which is what next.js provides!
+With react, however, we can combine the best of both worlds, which is what next.js provides!
 
 ### UI library
 
-I tried [Chakra UI](https://chakra-ui.com/), which is designed with composability, accessiblity, and great developer experience in mind.
+I tried [Chakra UI](https://chakra-ui.com/), which is designed with composability, accessibility, and great developer experience in mind.
 
 Out of all the UI libraries I have used(bootstrap, ant design, tailwind), I like Chakra the best.
 
-Regarding CSS modules and CSS in JS(styled components), I originally liked the idea of styled components, being able to compose layered components, but never use it to the point of feeling productive.
+Regarding CSS modules and CSS in JS(styled components), I originally liked the idea of styled components, being able to compose layered components, but never using it to the point of feeling productive.
 
 After some time, I switched over to CSS module, and managing CSS became a simple task of isolating the styles for each file.
 
@@ -171,6 +182,7 @@ It is easy to use, but I did not find a clean way to manage the code.
 
 Here's what the data fetching for infinite scrolling look like:
 
+```javascript
 const {
     size: ongoingEventPage,
     setSize: setOngoingEventPage,
@@ -213,9 +225,11 @@ const {
     justMounted = false;
     ongoingEvents.push(...result?.payload?.data);
   });
+```
 
 The functions referenced from above are defined as follow:
 
+```javascript
 export const useEventsInfinite = (query: Record<string, any>) => {
   const { data, error, size, setSize } = useSWRInfinite(
     (page: number): string => {
@@ -243,17 +257,18 @@ export const isLoadingMore = (
 export const lastFetchedResult = (result: any\[\] | undefined): any => {
   return result?.\[result?.length - 1\]?.payload || {};
 };
+```
 
-Not sure what others think, but I think this is a monstrosity of a quick hack that is put together just to "make things work". It is totally possible that I am using swr wrongly, and there is a much cleaner way of doing things.
+Not sure what you think, but this is a monstrosity of a quick hack that is put together just to "make things work". It is totally possible that I am using SWR wrongly, and there is a much cleaner way of doing things.
 
 Besides CSS, data fetching is one of the major reasons why frontend development is so complicated, and there is no easy way out.
 
-One could go the redux way, that offers a well-defined data workflow but have to write tons of boilerplate code and handle normalisation of data, and other out-of-the-box features that swr or other built-in cache libraries offer.
+One could go the redux way, which offers a well-defined data workflow but have to write tons of boilerplate code and handle normalisation of data, and other out-of-the-box features that SWR or other built-in cache libraries offer.
 
 ## Data integration is tough
 
 Now, come to think of it, I have great admiration for the work that big data integrators like [segment](https://segment.com/), [zapier](https://zapier.com/), have done. I cannot imagine how much effort it takes just to maintain the system's reliability and uptime.
 
-This speaks to the fact that real world data is always messy, some more than the others.
+This speaks to the fact that real-world data is always messy, some more than others.
 
 But data is all around us. Those who can gather data of disparate forms, make sense of it, and provide value to others will stay ahead.
