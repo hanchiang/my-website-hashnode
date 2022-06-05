@@ -4,9 +4,7 @@ Building a great product is important, but tracking its impact on end-users is e
 
 Being a software developer means that I spend most of my time writing code to build and maintain features, and fix bugs that are uncovered along the way.
 
-As much as I position myself to be a product engineer that delivers product features to solve user needs, there is little visibility of the impact on end-users, which is reasonable because the analytics part of the work will be typically handled by a product manager or analytics manager.
-
-I wanted to gain a first-hand experience in setting up simple analytics to track custom events in order to understand user behaviour. What better tool to start with than the ubiquitous [Google Analytics](https://analytics.google.com/analytics/web/), and [Venture bites](https://yaphc.com/project-venturebites-a-portal-for-asia-tech-startup-events)?
+I wanted to gain first-hand experience in setting up simple analytics to track custom events in order to understand user behaviour. What better tool to start with than the ubiquitous [Google Analytics](https://analytics.google.com/analytics/web/)? I chose [Venture bites](https://yaphc.com/project-venturebites-a-portal-for-asia-tech-startup-events) for this experiment.
 
 ## Set up Google Analytics
 
@@ -16,9 +14,10 @@ Then, create a GA **tracking code** under **property.** It starts with '**UA**'.
 
 Finally, we just need to paste the provided code snippet in every web page that we want to track.
 
-[![Google analytics tracking code](https://www.yaphc.com/wp-content/uploads/2021/03/GA-tracking-code-1024x399.png)](https://www.yaphc.com/wp-content/uploads/2021/03/GA-tracking-code.png)
 
-Where to find tracking code: Admin -> property -> tracking code
+![GA tracking code](https://cdn.hashnode.com/res/hashnode/image/upload/v1654392421823/8WSZbKF3f.png align="left")
+
+Where to find tracking code: **Admin** -> **property** -> **tracking code**
 
 That's all!
 
@@ -42,27 +41,30 @@ This is used to configure GA settings across multiple GA tags.
 
 Paste the GA tracking code in "**Tracking ID**"
 
-[![Google Tag Manager variable settings](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-GA-settings-variable-1024x570.png)](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-GA-settings-variable.png)
+
+![Google Tag Manager variable settings](https://cdn.hashnode.com/res/hashnode/image/upload/v1654392613406/7eGAQm4dX.png align="left")
 
 **2. Create a tag manager account in [GTM](https://tagmanager.google.com/#/home).**
 
 Note down the tag ID which starts with '**GTM**'.
 
-[![Google Tag Manager tags](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-tags-1024x362.png)](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-tags.png)
 
-I have 5 tags that tracks different events
+![GTM tags](https://cdn.hashnode.com/res/hashnode/image/upload/v1654392640233/_YGMbNSiL.png align="left")
+
+I have 5 tags that track different events.
 
 **3. Create a tag configuration**
 
 Create a tag configuration for **Google Marketing Platform**, and select the type of event to track(page view, custom event, etc).
 
-[![Google Tag Manager tag configuration](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-event-search-tag-1024x526.png)](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-event-search-tag.png)
+![Google Tag Manager tag configuration](https://cdn.hashnode.com/res/hashnode/image/upload/v1654393257857/lAVwBRvIi.png align="left")
 
 **4. Create a tag trigger**
 
 Create a trigger to let GTM know when to fire a particular event. Afterwards, we can use the **event name** to fire this event.
 
-[![Google Tag Manager tag trigger](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-event-search-trigger-configuration-1024x437.png)](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-event-search-trigger-configuration.png)
+
+![Google Tag Manager tag trigger](https://cdn.hashnode.com/res/hashnode/image/upload/v1654393294595/oXB6zLdfu.png align="left")
 
 Trigger for event names starting with 'event-search'
 
@@ -70,7 +72,8 @@ Trigger for event names starting with 'event-search'
 
 Create a **dataLayer** variable, which we will send from our SPA.
 
-[![Google Tag Manager variable](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-event-search-variable-1024x503.png)](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-event-search-variable.png)
+
+![Google Tag Manager variable](https://cdn.hashnode.com/res/hashnode/image/upload/v1654393345144/UpCyJOx7t.png align="left")
 
 The variable name is "eventSearch"
 
@@ -82,27 +85,30 @@ There are different GTM libraries for React. I chose [react-gtm](https://github.
 
 After setting it up, I discovered another GTM library called [react-gtm-hook](https://github.com/elgorditosalsero/react-gtm-hook), which is based on React hooks and offers a slightly better developer experience. I may try it out in the future to see if it is better.
 
-A side note: I noticed that the "**dataLayer**" data that gets sent to GA contains data from all preceding events, which is a little annoying. I am not sure if this is supposed to happen or I used it wrongly.
+Side note: I noticed that the "**dataLayer**" data that gets sent to GA contains data from all preceding events, which is a little annoying. I am not sure if this is supposed to happen or if I used it wrongly.
 
-[![Google Tag Manager in React](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-event-helper.png)](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-event-helper.png)
+
+![Google Tag Manager in React](https://cdn.hashnode.com/res/hashnode/image/upload/v1654393974326/_uWKkTp5Y.png align="left")
 
 **7. Test it in preview**
 
 Clicking on the "**preview**" button will bring up a new page that opens up the GA debugger that connects to your website.
 
-[![Google tag manager overview](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-overview-1024x455.png)](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-overview.png)
 
-Click on preview at the top right corner
+![Google tag manager overview](https://cdn.hashnode.com/res/hashnode/image/upload/v1654394021666/btJEEjJWD.png align="left")
 
-[![Google Tag Manager preview](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-preview-1024x408.png)](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-preview.png)
+Click on **preview** at the top right corner
 
-Trigger the event in your website, make sure it appears in the preview window
+
+![Google Tag Manager preview](https://cdn.hashnode.com/res/hashnode/image/upload/v1654394047705/xDZQHoIbc.png align="left")
+
+Trigger the event on your website, and make sure it appears in the preview window
 
 **8. Publish the changes**
 
-Remember to hit the **Submit** button. This can be a frustrating fix to the problem of "it doesn't work" because we forgot to publish the changes.
+Remember to hit the **Submit** button. This can be one of the fixes to the problem of "it doesn't work" because we forgot to publish the changes.
 
-[![Google Tag Manager publish](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-overview-top-bar-1024x48.png)](https://www.yaphc.com/wp-content/uploads/2021/03/GTM-overview-top-bar.png)
+![Google Tag Manager publish](https://cdn.hashnode.com/res/hashnode/image/upload/v1654394099985/6TKAUUMRq.png align="left")
 
 Workspace changes shows the number of unpublished changes
 
@@ -110,7 +116,8 @@ Workspace changes shows the number of unpublished changes
 
 Finally, to make sure the custom event is set up properly, go to GA **real-time** reports -> **events**. Trigger some events on the website, which should appear in the real-time dashboard after a second or two.
 
-[![Google analytics real-time events](https://www.yaphc.com/wp-content/uploads/2021/03/GA-realtime-events-1024x300.png)](https://www.yaphc.com/wp-content/uploads/2021/03/GA-realtime-events.png)
+
+![Google analytics real-time events](https://cdn.hashnode.com/res/hashnode/image/upload/v1654394151788/cqITJmvwq.png align="left"
 
 Events should show up in the real-time dashboard almost immediately
 
