@@ -1,5 +1,7 @@
 ## Building redis with CodeCrafters
 
+_A follow-up to this article can be found [here](https://yaphc.com/implementing-redis-serialisation-protocol)_
+
 [CodeCrafters](https://codecrafters.io/) is an amazing community built by [Paul Kuruvilla](https://twitter.com/rohitpaulk) that contains project challenges for real-world software systems that are used widely(redis, git, docker, SQLite).
 
 Each project comes in the form of guided steps on what you will build and leaves enough room for you to acquire new knowledge and apply them.
