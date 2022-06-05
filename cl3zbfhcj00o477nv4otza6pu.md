@@ -19,6 +19,7 @@ The frustration of going through technical interview processes at different comp
 ## Levelling up
 
 All these trials are the lessons I needed to learn in order to be a better and well-rounded person, and to make a well-informed decision regarding career and life.
+
 Throughout the entire process, I am glad I have learned to set my own standards, as well as have clarity about the value I bring to employers, instead of complaining about how life is unfair, or taking the easy route to accept offers that I didn't find fulfilling and favourable.
 
 If there is anything I learned from job hunting, it is to evaluate the company as much as they are evaluating me. Beyond the job description, learn as much about the hiring manager and business executives as possible.
@@ -26,5 +27,6 @@ If there is anything I learned from job hunting, it is to evaluate the company a
 ## The light at the end of the tunnel
 
 Finally, with some self-work and a little bit of luck, I managed to secure a job that I really wanted. I had a great impression of the company and leadership, and am confident in leveling up myself by working for them.
+
 In all honesty, I didn't quite see this coming and it would be easy to say that hard work always prevails with the clear lens of hindsight.
 For now, it is an achievement unlocked and I am looking forward to unlocking many more in the future!
