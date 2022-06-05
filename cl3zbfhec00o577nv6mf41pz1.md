@@ -1,5 +1,7 @@
 ## Why blog with ghost platform?
 
+_Followup to this post can be found [here](https://yaphc.com/ghost-blog-static-website)_
+
 Having tried Static Site Generators(SSGs) such as [Gatsby](https://www.gatsbyjs.org/), [React-Static](https://react-static.js.org/), [Hugo](https://gohugo.io/), I have to say that I am frustrated(_read: lazy_) at having to either buy into their templating system(Hugo), content retrieval workflow(Gatsby) or just simply starting from the ground up while building my own personal website.
 
 ## The positive
