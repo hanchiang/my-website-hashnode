@@ -22,7 +22,9 @@ After going through the exercises, I worked on the initial mobile application pr
 
 **The growth**
 
-As the rest of the engineering team got formed, my manager told me that I was assigned frontend responsibilities, and asked for my preference in areas of responsibility. I told him that after I enjoyed the work on backend over the past few months and would like to do more backend work moving forward. Shortly after, my request was approved and I continued working on the backend services, while learning from a senior backend engineer, who has 10 years of experience building large scale systems and leading a team of engineers.
+As the rest of the engineering team got formed, my manager told me that I was assigned frontend responsibilities, and asked for my preference in areas of responsibility.
+
+I told him that after I enjoyed the work on backend over the past few months and would like to do more backend work moving forward. Shortly after, my request was approved and I continued working on the backend services, while learning from a senior backend engineer, who has 10 years of experience building large-scale systems and leading a team of engineers.
 
 Just to name some of the learnings that I took away from the senior backend engineer:
 
@@ -30,7 +32,7 @@ Just to name some of the learnings that I took away from the senior backend engi
 -   System-wide design considerations such as API versioning
 -   Design of stateful and stateless logic in API services
 -   Importance of idempotent operations in distributed systems, where failures and retries are expected
--   Importance of identifying race condition in concurrent operations that manipulate the same data set
+-   Importance of identifying race conditions in concurrent operations that manipulate the same data set
 -   Writing and maintaining a reusable library with common functions
 -   Good software engineer practices such as [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), [SOLID](https://en.wikipedia.org/wiki/SOLID), [TDD](https://en.wikipedia.org/wiki/Test-driven_development).
 
@@ -38,11 +40,13 @@ My growth continued as we expanded the scope of work to application and database
 
 One important point to note is that growth is not linear, or put in another way, growth does not take place in equal proportions to time.
 
-**What we think growth looks like**
-![skill-time-graph.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654347431441/H8P3yqBXb.png align="left")
+**What I thought growth looks like**
 
-**What growth actually looks like**
-![skill-time-graph-non-linear.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654347450889/rlyp9jY3A.png align="left")
+![skill-time-graph.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654436062854/BncaBRZ3g.png align="left")
+
+**What it actually looks like**
+
+![skill-time-graph-non-linear.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654436075531/kRzGfD96K.png align="left")
 
 
 Looking back, I am happy and grateful to have the opportunity to learn from a great manager and senior engineer.
@@ -91,11 +95,12 @@ After a few days of back and forth discussion that led to no outcome, I decided 
 
 #### Debate outcome
 
-After every other member, besides the senior engineer and I, had shared about their experience and opinion, they took a vote which results in an even split between both approaches. At this stage, it was clear that the merits and drawbacks for both approaches are rather balanced and the team does not have a strong preference towards one.
+After every other member, besides the senior engineer and I, had shared about their experience and opinion, they took a vote which results in an even split between both approaches.
+At this stage, it was clear that the merits and drawbacks for both approaches are rather balanced and the team does not have a strong preference towards one.
 
 Before deciding on an approach, we listed down the criteria for a good design and agreed that no APIs are always stable, therefore proper documentation and deprecation of APIs need to be accounted for.
 
-Given the fact that we are running under time constraint, none of the engineers belongs to "know-it-all" category of programmers, and we don't believe that there will be a whole lot of breaking APIs over the next couple of years, therefore we decided to go with the header approach.
+Given the fact that we are under time constraint, none of the engineers belongs to "know-it-all" category of programmers, and we don't believe that there will be a whole lot of breaking APIs over the next couple of years, therefore we decided to go with the header approach.
 
 
 ![group of people putting hands together](https://cdn.hashnode.com/res/hashnode/image/upload/v1654347533928/jnVy40VdG.jpeg align="left")
@@ -141,6 +146,7 @@ What should happen, instead, is to search for the timeslot directly without time
 One of the greatest sins in the world of software is to delete a production database. I have fared slightly better, because I accidentally wiped out a staging database while I was multitasking like the hero I thought I was.
 
 What happened was I replaced a local database by dropping all tables and running the scripts to recreate them, which is fine. What went wrong I had **3 connection tabs** opened in MySQL Workbench, 1 for local, staging and production.
+
 I was rapidly switching between local and staging to check the database schema, and the next thing I did was to drop all the tables in the staging database and not realise it until **15 minutes** later.
 
 What followed was an immediate restore to the last database snapshot, and everything went back to normal. Things would have been so different if I had deleted a production database instead.
@@ -177,6 +183,7 @@ After identifying the problem, and having a quick discussion, we applied a quick
 > No PagerDuty calls mean everything is perfect right?
 
 This point is related to the previous point about lapses in alerts. My team uses [Datadog](https://www.datadoghq.com/) extensively for its logs management, metrics tracking, and monitors and alerts.
+
 We have set up a bunch of monitors to send us alerts via slack integration for API level failures. For service level failures which are more critical, [PagerDuty](https://www.pagerduty.com/) integration is used to send alerts to our phone for emergency.
 
 So around 2 months after launch, there were no PagerDuty alerts at all, despite multiple API failures, containers crashing occasionally. No one suspected anything because there were no obvious signs of improper PagerDuty configuration.
