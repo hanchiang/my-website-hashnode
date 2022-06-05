@@ -22,4 +22,8 @@ With this high profile fatality, I hope that a complete investigation will be do
 
 ## YOLO
 
-In light of recent such training related incidents, it just struck us as to how fragile and unpredictable our lives actually are. People have reflected on their lives and believed that they should put all fear and inhibition behind and do whatever they please before they leave this place. While that attitude is reasonable or even encouraged, I don't think we should just go all _YOLO_ it out in reaction to intense emotional happenings, but rather to live every day of our lives purposefully. Rest in peace, Aloysius Pang.
+In light of recent training-related incidents, it just struck me how fragile and unpredictable our lives actually are.
+
+Some people reflected on their lives and believed that they should put all fear and inhibition behind and do whatever they please before they leave this place.
+
+While that attitude is reasonable or even encouraged, I don't think we should just go all _YOLO_ it out in reaction to intense emotional happenings, but rather to live every day of our lives purposefully. Rest in peace, Aloysius Pang.
