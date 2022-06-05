@@ -142,7 +142,7 @@ Every developer appreciates a well-written [documentation](https://support.hashn
 
 ## What could be better: Editor preview page
 
-If you scroll back up to the [Editor](#editor) section, you can see that there is a preview tab that allows you to see what your article looks like.
+If you scroll back up to the [Editor](#heading-editor) section, you can see that there is a preview tab that allows you to see what your article looks like.
 
 The preview is rendered in the same content block as the article, resulting in excessive scrolling up and down to switch between writing mode and preview mode.
 
@@ -164,7 +164,7 @@ This is especially important in the current global economic climate, as interest
 I certainly hope that the team will continue to do well like they have been doing so far, and use this platform for as long as possible.
 
 ## Join me
-If you like what you see about Hashnode so far, you can sign up with my [referral link](https://hashnode.com/@hanchiang/joinme).
+If you like what you see about Hashnode so far, you can sign up [referral link](https://hashnode.com/@hanchiang/joinme).
 
 I do not earn a commission for referrals, but I will be able to qualify for the [ambassador](https://hashnode.com/ambassador) role that provides perks like access to beta features, converting articles into audio, etc.
 
