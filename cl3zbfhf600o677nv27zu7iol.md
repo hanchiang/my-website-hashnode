@@ -42,6 +42,7 @@ I consider my technical and communication skills as average, nothing to shout at
 shabby.
 
 **Communication when body language is missing**
+
 While I have encountered numerous difficulties and rejections that arise due to my technical competence, I have come to realise that the greatest stumbling block to my satisfaction and fulfilment at work is miscommunication among colleagues, which is greatly amplified in a **remote** team environment, and the management of these incidents.
 
 This realisation came about because I had also made my own share of mistakes in communication in my previous workplaces.
