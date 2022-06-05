@@ -164,7 +164,7 @@ This is especially important in the current global economic climate, as interest
 I certainly hope that the team will continue to do well like they have been doing so far, and use this platform for as long as possible.
 
 ## Join me
-If you like what you see about Hashnode so far, you can sign up [referral link](https://hashnode.com/@hanchiang/joinme).
+If you like what you see about Hashnode so far, you can sign up with my [referral link](https://hashnode.com/@hanchiang/joinme).
 
 I do not earn a commission for referrals, but I will be able to qualify for the [ambassador](https://hashnode.com/ambassador) role that provides perks like access to beta features, converting articles into audio, etc.
 
