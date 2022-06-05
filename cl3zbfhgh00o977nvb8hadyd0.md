@@ -10,10 +10,12 @@ As a tech guy, I acknowledge that it is easy to get engrossed in researching and
 ## 10x engineer?
 
 This came about after I was given a small exercise as part of the onboarding process as an entry level software engineer.
+
 I was tasked to create a simple web app that shows a listing, as well as providing a search function.
 I was given full autonomy in terms of the approach I wish to take to complete this exercise, the appropriate technologies that best solves the problem, the scoping, time budgeting and the final deliverable I want to achieve.
 
-As you can see, coding is but just one part of being a software engineer, and it is the final process of producing the expected output. In fact, without a proper understanding of the project scope, and getting on the same page with the product team, designers, as well as the engineering team, there is no business to write code at all.
+As you can see, coding is but just one part of being a software engineer, and it is the final process of producing the expected output.
+In fact, without a proper understanding of the project scope, and getting on the same page with the product team, designers, as well as the engineering team, there is no business to write code at all.
 
 I came across a video by [TechLead](https://www.youtube.com/watch?v=Iydpa_gPdes) on youtube at a very appropriate time. He talks about the complexities of software engineering and what makes a "10x developer".
 
