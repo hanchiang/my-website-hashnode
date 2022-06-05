@@ -140,13 +140,25 @@ This crowdsourcing of content is a great way to generate interesting ideas and k
 Every developer appreciates a well-written [documentation](https://support.hashnode.com/docs). The documentation is well organised, making it easy to search for anything you are looking for.
 
 
-## What could be better: Editor preview page
+## What could be better
+
+### Editor preview page
 
 If you scroll back up to the [Editor](#heading-editor) section, you can see that there is a preview tab that allows you to see what your article looks like.
 
 The preview is rendered in the same content block as the article, resulting in excessive scrolling up and down to switch between writing mode and preview mode.
 
 It would be great to have the preview mode as a **flyout** instead of being rendered in the same content block as the article so that writers won't have to scroll all the way up to switch mode, scroll down to look at the rendered content, and repeat them over and over again.
+
+### Published/updated content not displayed when the back button is clicked
+I noticed that after updating an article, which brings me to the article itself, I hit the back button to return to the editor page, and the changes that were made did not show up. Instead, I see the old content as before.
+
+After refreshing the page, the changes showed up.
+
+I found out about this when I updated an article, such as checking the auto-generate table of content, returning to the editor page, making some other changes, and realised that the table of content disappeared.
+
+This may not a big issue but could be frustrating if a huge update was made, only to be overwritten by another small update.
+
 
 ## Summary
 After just 1 day of using Hashnode, I can say that I really enjoy using it. It takes care of everything, allowing me to focus on just the writing part.
