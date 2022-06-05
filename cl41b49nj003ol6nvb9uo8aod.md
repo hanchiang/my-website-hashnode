@@ -119,10 +119,17 @@ Although it is not a full-fledged analytics service like Google Analytics, the i
 
 ### Article view
 
-![hashnode post view text selection sharer.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654431357092/CVR3QTBm3.png align="left")
+![hashnode post view text selection sharer.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654435280623/3dOo7zGpX.png align="left")
 
 The reading experience is great too.
 The article page has 2 columns: A main content block that is centered, and a right sticky bar for reactions, and social sharing.
+
+The table of content is displayed neatly at the top, indent according to the headings.
+
+As you scroll down, the table of content sticks to the top of the page, which allows you to easily navigate to a particular section.
+No more scrolling up and down. A win for content discovery. 👍
+This can be a huge time saver if the article is long.
+
 There is also a cool utility that allows you to select some text and share it on social media.
 
 ### Run out of ideas? Request for articles comes to the rescue!
@@ -137,7 +144,7 @@ What is better is that after you have written an article for a particular RFA, y
 This crowdsourcing of content is a great way to generate interesting ideas and keep the engagement level within the community high.
 
 ### Documentation
-Every developer appreciates a well-written [documentation](https://support.hashnode.com/docs). The documentation is well organised, making it easy to search for anything you are looking for.
+Every developer appreciates a well-written [documentation](https://support.hashnode.com/docs). The documentation is well organised, making it easy to search for anything you are looking for. Again, a plus point for content discovery. 👍
 
 
 ## What could be better
