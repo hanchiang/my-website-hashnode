@@ -169,6 +169,12 @@ I found out about this when I updated an article, such as checking the auto-gene
 
 This may not a big issue but could be frustrating if a huge update was made, only to be overwritten by another small update.
 
+### Newsletter ended up in junk mail
+I tried out the newsletter service, which is really simple to use.
+All I have to do is to flip a toggle, and the newsletter subscription box shows up on the website. 
+
+However, the newsletter ended up in the junk mail for hotmail. 😢
+For Gmail, it shows up in the inbox as expected. 
 
 ## Summary
 After just 1 day of using Hashnode, I can say that I really enjoy using it. It takes care of everything, allowing me to focus on just the writing part.
