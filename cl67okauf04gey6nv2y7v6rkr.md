@@ -133,7 +133,7 @@ Configure SSL on nginx, redirect HTTP to HTTPS, and proxy all requests to the po
 %%[urlshortener-nginx-ansible]
 
 ## Schedule start and stop
-As an additional step, I wanted to schedule the start and stop of the EC2 and application via github actions. 
+As an additional step, I wanted to schedule the start and stop of the EC2 and application via [scheduled workflow in github actions](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule). 
 
 This consist of the configurations steps, as well as interaction with [AWS CLI](https://aws.amazon.com/cli/) and [Github API](https://docs.github.com/en/rest).
 
