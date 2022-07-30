@@ -116,7 +116,7 @@ Lastly, configurations is the missing middle piece in the entire pipeline.
 
 After the system image is built with packer, and AWS infrastructure created with terraform, there are a few configuration tasks that need to be done in order for the server to be ready to serve live traffic.
 
-Ansible is a simple yet powerful tool that allows us to configure servers in yaml.
+This is done with [Ansible](https://www.ansible.com/use-cases/configuration-management), which is a simple yet powerful tool that allows us to configure servers in yaml.
 
 *I am using ansible to run shell scripts imperatively instead of managing configurations declaratively using the pre-defined modules, because I found it the easiest way to learn*
 
