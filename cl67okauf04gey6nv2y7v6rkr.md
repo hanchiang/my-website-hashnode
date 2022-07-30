@@ -34,7 +34,7 @@ My understanding is summarised in a timeline: provisioning -> configuration -> d
 
 Provisioning is the process of setting up servers to be ready for use.
 In the context of cloud computing, this server is likely a **virtual machine**, on which a machine image is installed.
-Here, the operating system, along with other required softwares are installed.
+Here, the operating system, along with other required software is installed.
 
 In AWS terms, this means creating a VPC, subnet, route table, and EC2.
 
