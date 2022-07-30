@@ -149,6 +149,8 @@ The script can be found [here](https://github.com/hanchiang/url-shortener-infra/
 The end result achieved is a full stack pipeline from infrastructure provisioning to application deployment.
 Now that I have a basic understanding of DevOps, the next step for me is to explore site reliability, that is [observability](https://iamondemand.com/blog/the-3-pillars-of-system-observability-logs-metrics-and-tracing).
 
+**Check out the project**
+
 Website: [URL shortener](https://urlshortener.yaphc.com/)
 
 Backend repository: https://github.com/hanchiang/url-shortener-backend
