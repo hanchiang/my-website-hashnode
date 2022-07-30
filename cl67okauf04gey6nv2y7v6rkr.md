@@ -1,6 +1,6 @@
 ## Automating infrastructure provisioning, configuration, and application deployment
 
-As a software engineer, I read and write application code every day. Occasionally, I get to work a little on CI/CD pipeline - Fix build issues, deploying a new application, etc. However, I have little understanding on how the entire process is orchestrated and automated.
+As a software engineer, I read and write application code every day. Occasionally, I get to work a little on CI/CD pipeline - Fix build issues, deploy a new application, etc. However, I have little understanding of how the entire process is orchestrated and automated.
 
 So, I began with the goal of learning how to automate the entire stack: from infrastructure **provisioning**, **configuration**, application **deployment**, and starting and stopping the stack itself.
 
