@@ -3,7 +3,8 @@
 As a software engineer, I read and write code every day. Occasionally, I get to work a little on CI/CD pipeline - Fix build issues, deploying a new application, etc. However, I have little understanding on how the entire process is orchestrated and automated.
 
 So, I began with the goal of learning how to automate the entire stack: from infrastructure **provisioning**, **configuration**, application **deployment**, and starting and stopping the stack itself.
-After spending some time crawling through Reddit and Stack Overflow, I h
+
+After spending some time crawling through Reddit and Stack Overflow, I gained a basic understanding of the whole process and the tools that are commonly used.
 
 ## Overview
 The target application is a [URL shortener](https://urlshortener.yaphc.com/) that makes a long URL into a shorter one, like [TinyURL](https://tinyurl.com).
