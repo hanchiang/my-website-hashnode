@@ -40,9 +40,11 @@ Later on, I experimented with downloading a local copy of the website and [hosti
 It was almost perfect, except I found myself having to dive into customising the theme to add basic features like social links, breaking my rule of wanting to focus on writing again.
 
 **Back to wordpress**
+
 So, I moved my website back to wordpress and lived with the plugin life.
 
 **To Hashnode**
+
 Finally, my website ended up on Hashnode. Hashnode solves all the problems that I have faced previously and really allows me to focus just on writing while allowing me to own my content.
 
 I used this [guide](https://kumarashwinhubert.com/how-to-migrate-your-blog-from-wordpress-to-hashnode) to migrate my website from Wordpress to Hashnode. It is simple, except for image handling - I have to manually upload them one by one. 😢
@@ -85,6 +87,7 @@ This page is one of my favourite parts of Hashnode. It has all the essential bat
 For authoring, I can write drafts and articles, create a static page, create a **series** and add articles under it.
 
 It has great built-in **analytics**, with an even greater advanced analytics page which is currently in beta.
+
 I can embed elements from various platforms by defining them as **widgets**, and integrate them with services like google analytics, hotjar, [web monetisation](https://webmonetization.org/).
 There is even a **newsletter** service out of the box! 🤩
 
@@ -185,7 +188,7 @@ As of now, they are still in the growth phase in which the focus is on **buildin
 
 After the platform has reached a certain level of maturity, the focus will shift toward **profitability**.
 
-This would be the key moment to look out for as to whether they will continue to support all the features that were already built, gate some of them behind a paywall, or retire them.
+This would be the key moment to look out for as to whether they will continue to support all the features that were already built, gate some of them behind a paywall, or retire some of them.
 
 This is important in the current global economic climate, as interest rates are rising to combat inflation, leading to a general reduction in spending across all segments, including startup fundraising.
 
