@@ -3,7 +3,7 @@
 As a software engineer, I read and write code every day. Occasionally, I get to work a little on CI/CD pipeline - Fix build issues, deploying a new application, etc. However, I have little understanding on how the entire process is orchestrated and automated.
 
 So, I began with the goal of learning how to automate the entire stack: from infrastructure **provisioning**, **configuration**, application **deployment**, and starting and stopping the stack itself.
-
+After spending some time crawling through Reddit and Stack Overflow, I h
 
 ## Overview
 The target application is a [URL shortener](https://urlshortener.yaphc.com/) that makes a long URL into a shorter one, like [TinyURL](https://tinyurl.com).
@@ -45,7 +45,7 @@ The diagram above is useful to remember which layers we have to take care of und
 
 **Configuration**
 
-Configuration can be considered as an extension to the process of provisioning the server. Once the server is created, and loaded with the required software, they need to be configured so that they are usable.
+Configuration can be considered as an extension to the process of provisioning the server. Once the server is created, and loaded with the required software, it needs to be configured so that it is usable.
 
 e.g. Configure PostgreSQL data directory, logging and authentication settings
 
@@ -53,7 +53,7 @@ e.g. Configure PostgreSQL data directory, logging and authentication settings
 
 With the infrastructure ready to serve live traffic, an application can finally be deployed from an artifact repository to the server.
 
-This could be as simple as SSH into the server, pulling a docker image, and running a container.
+This could be as simple as SSH into the server, pulling a docker image, and running a container, or deploying to a kubernetes cluster with helm.
 
 **Visualising the whole pipeline**
 
@@ -99,9 +99,12 @@ Using packer here takes advantage of [immutable infrastructure](https://www.brid
 
 ### Building infrastructure with terraform
 After that, the infrastructure is **orchestrated** with [Terraform](https://www.terraform.io/).
-Terraform is a tool that allows us to build the entire infrastructure in the correct order, and keeps track of the desired state, in a declarative style.
+It takes care of creating a VPC, subnet, EC2, route table, security groups.
 
-Here, terraform takes care of creating a VPC, subnet, EC2, route table, security groups.
+Terraform is a tool that allows us to build the entire infrastructure in the **correct order**, and keeps track of the **desired state**, in a declarative style.
+
+It can also detect state drift by synchronising its state to match the real-world state.
+
 
 Again, the benefits of consistency and maintainability are present.
 
@@ -111,9 +114,10 @@ Again, the benefits of consistency and maintainability are present.
 Lastly, configurations is the missing middle piece in the entire pipeline. 
 
 After the system image is built with packer, and AWS infrastructure created with terraform, there are a few configuration tasks that need to be done in order for the server to be ready to serve live traffic.
-These are handled by ansible.
 
-*I am using ansible just to run shell scripts because it is the easiest way to learn to do things.*
+Ansible is a simple yet powerful tool that allows us to configure servers in yaml.
+
+*I am using ansible to run shell scripts imperatively instead of managing configurations declaratively using the pre-defined modules, because I found it the easiest way to learn*
 
 ### Set up file system for postgres
 Set up file system on a separate block storage.
