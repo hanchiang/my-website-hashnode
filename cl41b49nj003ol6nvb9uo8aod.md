@@ -187,9 +187,9 @@ After the platform has reached a certain level of maturity, the focus will shift
 
 This would be the key moment to look out for as to whether they will continue to support all the features that were already built, gate some of them behind a paywall, or retire them.
 
-This is especially important in the current global economic climate, as interest rates have to be raised to combat inflation, leading to a general reduction in spending across all segments, including startup fundraising.
+This is important in the current global economic climate, as interest rates are rising to combat inflation, leading to a general reduction in spending across all segments, including startup fundraising.
 
-I certainly hope that the team will continue to do well like they have been doing so far, and use this platform for as long as possible.
+I hope that the team will continue to do well like they have been doing so far, and use this platform for as long as possible.
 
 ## Join me
 If you like what you see about Hashnode so far, you can sign up [referral link](https://hashnode.com/@hanchiang/joinme).
