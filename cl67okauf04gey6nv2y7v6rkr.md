@@ -121,7 +121,7 @@ This is done with [Ansible](https://www.ansible.com/use-cases/configuration-mana
 *I am using ansible to run shell scripts imperatively instead of managing configurations declaratively using the pre-defined modules, because I found it the easiest way to learn*
 
 ### Set up file system for postgres
-Set up file system on a separate EBS volume to store postgres data, and other relevant data.
+Set up file system on a [separate EBS volume](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html) to store postgres data, and other relevant data.
 
 The reason for using separate storage from the root volume is so that all my application data is preserved each time a new server is provisioned.
 
