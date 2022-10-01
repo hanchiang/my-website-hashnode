@@ -14,7 +14,8 @@ It was a great exercise that puts recursion into practice. Working with raw byte
 
 Next up is to [integrate](https://github.com/hanchiang/codecrafters-redis-rust/releases/tag/0.3.0) the parser with the codebase. There was quite a bit of code because the older method of parsing input is totally different from this new implementation.
 
-This shows the importance of having a clean interface before writing code. The underlying implementation may change, but a big rewrite will be avoided as long as the interface is robust. However, in this case the interface of these two methods are completely different, resulting in a breaking change in the parser.
+This shows the importance of design a clean interface before writing code. The underlying implementation may change, but a big rewrite will be avoided as long as the interface is still valid.
+In this case, the interface of these two methods is completely different, resulting in a breaking change in the parser.
 
 Finally, examples of usage are updated to be clearer and user friendly
 
