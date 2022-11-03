@@ -11,7 +11,7 @@ The [build-push-action](https://github.com/docker/build-push-action) github acti
 
 With this simple modification, the deployment workflow is shortened by 3 minutes. 
 
-This may not be significant, but it is useful for me as I have a script to start and stop the application, which is triggered on schedule via github actions in the[infra repository](https://github.com/hanchiang/url-shortener-infra/tree/master/.github/workflows).
+This may not be significant, but it is useful for me as I have a script to start and stop the application, which is triggered on schedule via github actions in the [infra repository](https://github.com/hanchiang/url-shortener-infra/tree/master/.github/workflows).
 
 I can also run the script manually when I am debugging an issue, whether it is on infrastructure configuration or application deployment.
 
