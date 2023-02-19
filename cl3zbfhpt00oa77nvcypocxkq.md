@@ -1,4 +1,4 @@
-## Implementing redis serialisation protocol
+# Implementing redis serialisation protocol
 
 This is a follow-up post from [Building redis with CodeCrafters](https://www.yaphc.com/building-redis-with-codecrafters-challenge).
 
