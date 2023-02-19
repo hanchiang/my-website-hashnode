@@ -1,4 +1,4 @@
-## Building redis with CodeCrafters
+# Building redis with CodeCrafters
 
 _A follow-up to this article can be found [here](https://yaphc.com/implementing-redis-serialisation-protocol)_
 
