@@ -1,4 +1,4 @@
-## Learning a system programming language: Rust
+# Learning a system programming language: Rust
 
 I have spent the past few weeks learning Rust through the official book: [The rust programming language](https://doc.rust-lang.org/stable/book/), and enjoyed [the experience](https://github.com/hanchiang/learn-rust). It is written by [Steve Klabnik](https://twitter.com/steveklabnik?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), one of the former contributors of Rust.
 
