@@ -46,7 +46,7 @@ Other data sources: VIX central
 
 Trading view has its own programming language called [PineScript](https://www.tradingview.com/pine-script-docs/en/v5/Introduction.html), which allows us to create indicators and trading strategies.
 
-Here are some recommendation readings on PineScript:
+Here are some recommended readings on PineScript:
 
 [Execution model](https://www.tradingview.com/pine-script-docs/en/v5/language/Execution_model.html) explains how the script is executed on the chart, particularly the difference between historical and real-time bars.
 
