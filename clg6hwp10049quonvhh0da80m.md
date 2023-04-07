@@ -136,7 +136,7 @@ Set the alert using the indicator in the previous step as the condition, and con
 
 Note: Make sure the timeframe of the chart is set to daily(1D), so that the script will get triggered only once a day, when the market closes.
 
-## **Data storage: Redis**
+## Data storage: Redis
 
 Redis is chosen because it fits my need for a key-value storage, and has the option to [persist data](https://redis.io/docs/management/persistence/).
 
