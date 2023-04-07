@@ -269,4 +269,4 @@ PineScript doc: [https://www.tradingview.com/pine-script-docs/en/v5/index.html](
 
 PineScript reference: [https://www.tradingview.com/pine-script-reference/v5/](https://www.tradingview.com/pine-script-reference/v5/)
 
-My PineScript: [https://gist.github.com/hanchiang/23a6ddf08d41c9aad337b13f6742990d](https://gist.github.com/hanchiang/23a6ddf08d41c9aad337b13f6742990d)
+My PineScript: [https://www.tradingview.com/script/yKEUsKOl-Stock-data-alert-webhook-to-custom-API-server/](https://www.tradingview.com/script/yKEUsKOl-Stock-data-alert-webhook-to-custom-API-server/)
