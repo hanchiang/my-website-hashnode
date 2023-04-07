@@ -166,7 +166,7 @@ The second is to check if the request comes from one of [tradingview's machines]
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680448851118/3b274f6e-e8aa-45a6-b1bc-51cdf4895493.png align="center")
 
-### **Create telegram bot**
+### Create telegram bot
 
 #### Set up bot and channel
 
@@ -180,7 +180,7 @@ The **channel id** of the channel is needed for the bot to send the message.
 
 There are two ways of getting the channel id:
 
-First, go to the channel on telegram web and look at the URL, which is something like [https://web.telegram.org/k/#-YYYYYYYYY](https://web.telegram.org/k/#-YYYYYYYYYY). The channel id will be `-100YYYYYYYYYY`.
+First, go to the channel on telegram web and look at the URL, which is something like `https://web.telegram.org/k/#-YYYYYYYYY`. The channel id will be `-100YYYYYYYYYY`.
 
 The second method is to use [a bot](https://t.me/username_to_id_bot) to tell you the channel id.
 
@@ -194,9 +194,9 @@ Finally, the last piece of the puzzle is to schedule the message 30 minutes befo
 
 This is the [script](https://github.com/hanchiang/market-data-notification/blob/master/src/job/stocks.py) for sending the message.
 
-### Timezone
+#### Timezone
 
-One thing to note is that the timezone changes due to daylight savings time(DST). Without DST, the timezone is Pacific Standard Time(PST), which is **UTC-5**. With DSTS, it is Pacific Daylight Time(PDT) which is **UTC-4**.
+One thing to note is that the timezone changes due to daylight savings time(DST). Without DST, the timezone is Pacific Standard Time(PST), which is **UTC-5**. With DST, it is Pacific Daylight Time(PDT) which is **UTC-4**.
 
 On the application side, we just need to check against the local time:
 
