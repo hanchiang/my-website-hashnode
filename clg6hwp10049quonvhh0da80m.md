@@ -160,7 +160,7 @@ We need a regular API server that can receive POST request from tradingview, and
 
 Since the webhook is a HTTP POST request that anyone can call, we need to ensure that it actually originates from tradingview, not someone else.
 
-The first safeguard is to check the self-defined **secret** defined in PineScript.
+The first safeguard is to check the self-defined **secret** in the PineScript.
 
 The second is to check if the request comes from one of [tradingview's machines](https://www.tradingview.com/support/solutions/43000529348-about-webhooks/).
 
