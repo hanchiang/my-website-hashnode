@@ -58,7 +58,7 @@ Here are some recommendation readings on PineScript:
 
 [The script](https://gist.github.com/hanchiang/23a6ddf08d41c9aad337b13f6742990d) that I have created retrieves the closing price and the 1D Exponential Moving Average(EMA) 20 for some tickers.
 
-It uses built-in functions [ta.ema](https://www.tradingview.com/pine-script-reference/v5/#fun_ta%7Bdot%7Dema) to get the EMA and [request.security](https://www.tradingview.com/pine-script-reference/v5/#fun_request%7Bdot%7Dsecurity) to get data for a particular ticker and timeframe.
+It uses built-in functions [ta.ema](https://www.tradingview.com/pine-script-reference/v5/#fun_ta%7Bdot%7Dema) to get the EMA and [request.security](https://www.tradingview.com/pine-script-reference/v5/#fun_request%7Bdot%7Dsecurity) to get data for a particular ticker and timeframe, and `alert.freq_once_per_bar_close` to send the alert when the market closes.
 
 **Ticker name**
 
