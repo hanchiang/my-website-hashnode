@@ -1,5 +1,5 @@
 ---
-title: "Stocks notification: Tradingview webhook to telegram"
+title: "Stocks notification: TradingView webhook to telegram"
 datePublished: Fri Apr 07 2023 12:00:39 GMT+0000 (Coordinated Universal Time)
 cuid: clg6hwp10049quonvhh0da80m
 slug: stocks-notification-tradingview-webhook-to-telegram
@@ -23,7 +23,7 @@ At the start of the year, I worked on a telegram bot that sends market data of c
 
 ## Overview of the workflow
 
-1. Create an indicator script in trading view
+1. Create an indicator script in TradingView
     
 2. Add indicator to chart
     
@@ -40,11 +40,11 @@ Other data sources: VIX central
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680443428026/87e0668b-64ad-4a63-aab1-6a5668f79bb2.png align="center")
 
-## Create a script in trading view
+## Create a script in TradingView
 
 ### PineScript introduction
 
-Trading view has its own programming language called [PineScript](https://www.tradingview.com/pine-script-docs/en/v5/Introduction.html), which allows us to create indicators and trading strategies.
+TradingView has its own programming language called [PineScript](https://www.tradingview.com/pine-script-docs/en/v5/Introduction.html), which allows us to create indicators and trading strategies.
 
 Here are some recommended readings on PineScript:
 
@@ -263,7 +263,7 @@ Persistence: [https://redis.io/docs/management/persistence/](https://redis.io/do
 
 My persistence config: [https://github.com/hanchiang/market-data-notification-infra/blob/master/images/scripts/install-redis.sh#L22-L25](https://github.com/hanchiang/market-data-notification-infra/blob/master/images/scripts/install-redis.sh#L22-L25)
 
-**Trading view PineScript**
+**TradingView PineScript**
 
 PineScript doc: [https://www.tradingview.com/pine-script-docs/en/v5/index.html](https://www.tradingview.com/pine-script-docs/en/v5/index.html)
 
