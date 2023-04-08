@@ -146,7 +146,7 @@ Redis offers 2 options: Redis Database(RDB) and Append Only File(AOF).
 
 RDB is a [snapshot](https://github.com/redis/redis/blob/7.0/redis.conf#L414-L433) of the data at specific intervals, while AOF is an [append-only log](https://github.com/redis/redis/blob/7.0/redis.conf#L1361-L1377) of the write operations received by the server.
 
-The tradeoffs of RDB and AOF complement each other, and it makes sense to use [both](https://github.com/hanchiang/market-data-notification-infra/blob/master/images/scripts/install-redis.sh#L22-L25).
+The tradeoffs of RDB and AOF complement each other, so it makes sense to use [both](https://github.com/hanchiang/market-data-notification-infra/blob/master/images/scripts/install-redis.sh#L22-L25).
 
 #### Data structure
 
