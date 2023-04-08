@@ -148,6 +148,10 @@ RDB is a [snapshot](https://github.com/redis/redis/blob/7.0/redis.conf#L414-L433
 
 The tradeoffs of RDB and AOF complement each other, so it makes sense to use [both](https://github.com/hanchiang/market-data-notification-infra/blob/master/images/scripts/install-redis.sh#L22-L25).
 
+For RDB, a snapshot will be created after 300 seconds and there is at least 1 change.
+
+For AOF, write operations will be flushed to disk every second using the default fsync policy `appendfsync everysec`.
+
 #### Data structure
 
 [Sorted set](https://redis.io/docs/data-types/sorted-sets/) is chosen to store the data because the elements are sorted by score, which is the timestamp, and supports finding elements by score quickly.
