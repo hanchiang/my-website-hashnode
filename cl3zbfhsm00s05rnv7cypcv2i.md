@@ -1,4 +1,12 @@
-# Building redis with CodeCrafters
+---
+title: "Building redis with CodeCrafters"
+datePublished: Sat Mar 19 2022 05:32:54 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhsm00s05rnv7cypcv2i
+slug: building-redis-with-codecrafters-challenge
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654320760899/-kfkhgjFM.jpeg
+tags: redis, rust, side-project, tcp
+
+---
 
 _A follow-up to this article can be found [here](https://yaphc.com/implementing-redis-serialisation-protocol)_
 
