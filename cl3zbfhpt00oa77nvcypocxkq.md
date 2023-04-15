@@ -1,4 +1,12 @@
-# Implementing redis serialisation protocol
+---
+title: "Implementing redis serialisation protocol"
+datePublished: Sun May 29 2022 04:13:05 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhpt00oa77nvcypocxkq
+slug: implementing-redis-serialisation-protocol
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654315962022/AO4ObI5sD.jpg
+tags: redis, rust, side-project, tcp
+
+---
 
 This is a follow-up post from [Building redis with CodeCrafters](https://www.yaphc.com/building-redis-with-codecrafters-challenge).
 
