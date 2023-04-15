@@ -1,4 +1,12 @@
-## Instagram scraper: Find viral posts on instagram
+---
+title: "Instagram scraper: Find viral posts on instagram"
+datePublished: Mon Aug 31 2020 09:13:11 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfh8b00o377nvgf60cybp
+slug: instagram-scraper-find-viral-posts
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654332941225/QiEt8mMCS.jpg
+tags: instagram, nodejs, side-project, web-scraping
+
+---
 
 In the beginning of 2019, I was experimenting with niche pages on Instagram, and wanted an on-demand tool to find viral instagram posts of users in my niche. So, I created a small project to scrape viral posts from any instagram user.
 
