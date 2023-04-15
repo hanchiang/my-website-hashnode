@@ -1,4 +1,12 @@
-## Imposter syndrome: Every software developer's nightmare
+---
+title: "Imposter syndrome: Every software developer's nightmare"
+datePublished: Sun Dec 09 2018 13:55:19 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfgvl00rt5rnvgkcq54pp
+slug: imposter-syndrome-every-software-developers-nightmare
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/Or5xhaypXWE/upload/v1654350405814/EfvSsbWdW.jpeg
+tags: impostor-syndrome
+
+---
 
 Having graduated recently, I want to take the opportunity to address a phenomenon that has struck many developers at one point in time or another: the imposter syndrome. Imposter syndrome is the psychological behaviour that is characterised by a fear of being exposed as a fraud, and is widespread among the creatives, not just the coders.
 
