@@ -1,4 +1,13 @@
-## API versioning: The inevitable breaking change in software
+---
+title: "API versioning: The inevitable breaking change in software"
+datePublished: Mon May 25 2020 12:28:53 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhgr00rv5rnvbdzudjaf
+slug: api-versioning-inevitable-breaking-change-in-software
+canonical: https://www.yaphc.com/api-versioning-inevitable-breaking-change-in-software
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654345439811/E_DJayXqQ.jpeg
+tags: work, api-versioning, breaking-changes
+
+---
 
 RESTful APIs are interfaces for computers to communicate with one another, and are ideally set in stone. 
 
