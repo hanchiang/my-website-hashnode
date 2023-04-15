@@ -1,4 +1,12 @@
-## Zsh - The enhanced bash
+---
+title: "Zsh - The enhanced bash"
+datePublished: Mon Jan 21 2019 13:42:04 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfh9b00ru5rnv7btz40gj
+slug: zsh-the-enhanced-bash
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/MPKQiDpMyqU/upload/v1654349771736/14F4m88CK.jpeg
+tags: bash, zsh, shell
+
+---
 
 Some call it shell, others call it the terminal, command line. Whatever it is called, it is the lifeblood of programmers using a unix-based system.
 
