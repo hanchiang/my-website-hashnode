@@ -1,4 +1,11 @@
-## 2020 outlook
+---
+title: "2020 outlook"
+datePublished: Sun Feb 02 2020 13:25:06 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhf800o777nv1svxdl3h
+slug: 2020-outlook
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654348817989/-8r01zx2o.jpg
+
+---
 
 Just 1 month into 2020, several major incidents has happened, many of which are still ongoing.
 
