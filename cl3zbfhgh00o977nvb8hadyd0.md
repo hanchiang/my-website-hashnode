@@ -1,4 +1,12 @@
-## Software engineering: More than just coding
+---
+title: "Software engineering: More than just coding"
+datePublished: Sun Mar 24 2019 13:31:55 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhgh00o977nvb8hadyd0
+slug: software-engineering-more-than-just-coding
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654349438627/n0gOcrza4.jpg
+tags: work, career
+
+---
 
 It has been a month since I started work as a new graduate. My company, which is a new subsidiary of a bigger group, is set out to capture the consumer F&B market.
 It is going to be an exciting and fast-paced ride this year, as plans to incrementally roll out the system have already been proposed and the real has just begun last week.
