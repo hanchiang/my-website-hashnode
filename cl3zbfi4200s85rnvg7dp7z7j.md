@@ -1,4 +1,12 @@
-## Tracking user behaviour with Google Analytics and Google Tag Manager
+---
+title: "Tracking user behaviour with Google Analytics and Google Tag Manager"
+datePublished: Fri Mar 19 2021 08:21:54 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfi4200s85rnvg7dp7z7j
+slug: tracking-user-behaviour-google-analytics-and-google-tag-manager
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654330420696/3HQDjc7r9.jpg
+tags: reactjs, nextjs, google-analytics, google-tag-manager
+
+---
 
 Building a great product is important, but tracking its impact on end-users is even more important in order to determine its effectiveness.
 
