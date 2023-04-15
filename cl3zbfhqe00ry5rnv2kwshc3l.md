@@ -1,4 +1,13 @@
-## Pagination: The deceptively simple task
+---
+title: "Pagination: The deceptively simple task"
+datePublished: Sun May 17 2020 12:48:26 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhqe00ry5rnv2kwshc3l
+slug: pagination-deceptively-simple-task
+canonical: https://www.yaphc.com/pagination-deceptively-simple-task
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654345973968/MzX7MVSA7.jpg
+tags: redis, elasticsearch, work, pagination, infinite-scrolling
+
+---
 
 Pagination is the process of **separating data** into multiple discrete pages. In the context of web and mobile applications, this can either be in the form on **numbered pages** as seen in google search results or **infinite scrolling** in social media feed. The decision process behind choosing either approach is not the objective of this post, but rather it is about the implementation of the backend data flow.
 
