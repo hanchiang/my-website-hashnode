@@ -1,4 +1,12 @@
-## Data mining: SQL for data practitioners
+---
+title: "Data mining: SQL for data practitioners"
+datePublished: Mon Apr 19 2021 08:09:36 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhun00s35rnv26vheh6j
+slug: data-mining-sql-for-data-practitioners
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654330156162/DOjWwXjHm.png
+tags: database, sql
+
+---
 
 Data practitioners use SQL for data mining: From simply displaying data to telling stories with data.
 
