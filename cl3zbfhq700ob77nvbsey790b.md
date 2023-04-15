@@ -1,4 +1,12 @@
-# Learning a system programming language: Rust
+---
+title: "Learning a system programming language: Rust"
+datePublished: Fri Feb 18 2022 05:45:21 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhq700ob77nvbsey790b
+slug: learning-a-system-programming-language-rust
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654321456742/KHmxw54h9.jpeg
+tags: rust, programming-languages
+
+---
 
 I have spent the past few weeks learning Rust through the official book: [The rust programming language](https://doc.rust-lang.org/stable/book/), and enjoyed [the experience](https://github.com/hanchiang/learn-rust). It is written by [Steve Klabnik](https://twitter.com/steveklabnik?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), one of the former contributors of Rust.
 
