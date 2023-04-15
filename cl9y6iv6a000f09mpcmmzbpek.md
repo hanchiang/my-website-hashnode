@@ -1,4 +1,12 @@
-# Caching docker layers in github actions and retriggering workflow
+---
+title: "Caching docker layers in github actions and retriggering workflow"
+datePublished: Tue Nov 01 2022 12:21:34 GMT+0000 (Coordinated Universal Time)
+cuid: cl9y6iv6a000f09mpcmmzbpek
+slug: caching-docker-layers-in-github-actions-and-retriggering-workflow
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/dkN5z8IdkFk/upload/v1667305074922/Tyobrsa9d.jpeg
+tags: github-actions
+
+---
 
 Following my previous post on [automating infrastructure provisioning, configuration and application deployment](https://www.yaphc.com/automating-infrastructure-provisioning-configuration-and-application-deployment), there are 2 areas that I wanted to improve.
 
