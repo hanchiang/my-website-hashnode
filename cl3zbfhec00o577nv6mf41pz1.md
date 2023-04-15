@@ -1,4 +1,12 @@
-## Why blog with ghost platform?
+---
+title: "Why blog with ghost platform?"
+datePublished: Sat Dec 01 2018 14:05:48 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhec00o577nv6mf41pz1
+slug: blog-ghost-platform
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/ZC0EbdLC8G0/upload/v1654351388027/2WLT0OwBQ.jpeg
+tags: ghost-platform
+
+---
 
 _Followup to this post can be found [here](https://yaphc.com/ghost-blog-static-website)_
 
