@@ -1,4 +1,12 @@
-## Challenges in designing a great user onboarding experience
+---
+title: "Challenges in designing a great user onboarding experience"
+datePublished: Sun May 31 2020 12:10:43 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhtx00s15rnv32uc55of
+slug: challenges-in-designing-user-onboarding-experience
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654335168671/5Lg-emV9z.jpg
+tags: user-experience, work, user-onboarding
+
+---
 
 Designing a great onboarding, sign in experience is not easy because everyone is different and behaves differently. However, doing it well can put a smile on users' faces.
 For most B2C applications, onboarding should be quick, intuitive, and easy to navigate. The key is to offer a high-value, frictionless experience with minimal effort.
