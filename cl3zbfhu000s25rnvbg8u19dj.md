@@ -1,4 +1,12 @@
-## Managing connections in MongoDB
+---
+title: "Managing connections in MongoDB"
+datePublished: Sat Aug 25 2018 14:13:25 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhu000s25rnvbg8u19dj
+slug: managing-connections-in-mongodb
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654351820787/eYDUzXkpq.png
+tags: expressjs, mongodb, nodejs
+
+---
 
 ## Introduction to MongoDB
 
