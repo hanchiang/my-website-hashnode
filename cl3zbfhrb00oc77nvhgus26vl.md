@@ -1,4 +1,12 @@
-## Hosting ghost blog as static website
+---
+title: "Hosting ghost blog as static website"
+datePublished: Wed Dec 05 2018 14:02:02 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhrb00oc77nvhgus26vl
+slug: ghost-blog-static-website
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/8TLQMMJp_Y0/upload/v1654351044645/BSlSUuPHY.jpeg
+tags: side-project, netlify, static-website, ghost-platform
+
+---
 
 Previously: [Why Blog with ghost platform?](https://www.yaphc.com/blog-ghost-platform/)
 **2020 update:** _I have moved from ghost to WordPress, because I value the inclusiveness of the writing experience from WordPress and my chosen theme, instead of having to do some hackarounds for common features such as social links._
