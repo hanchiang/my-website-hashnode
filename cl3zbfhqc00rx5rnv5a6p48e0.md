@@ -1,4 +1,12 @@
-## Bunyan: A logging tool for node.js
+---
+title: "Bunyan: A logging tool for node.js"
+datePublished: Mon Oct 29 2018 14:08:43 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhqc00rx5rnv5a6p48e0
+slug: bunyan-a-logging-tool-for-node-js
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/T_fYMj6H-pE/upload/v1654351649482/cCApR3AZ6.jpeg
+tags: expressjs, nodejs, logging, bunyan
+
+---
 
 ## Motivation
 
