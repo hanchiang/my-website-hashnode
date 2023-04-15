@@ -1,4 +1,11 @@
-## A loss of another precious Singaporean son
+---
+title: "A loss of another precious Singaporean son"
+datePublished: Thu Jan 24 2019 13:35:16 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfh0500o277nv7tce028c
+slug: loss-of-another-singaporean-son
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/mwUk4oNxkkA/upload/v1654349684401/57WZCAGJT.jpeg
+
+---
 
 By now, many Singaporeans would have heard of the unfortunate death of [Aloysius Pang](https://en.wikipedia.org/wiki/Aloysius_Pang), a young local actor.
 
