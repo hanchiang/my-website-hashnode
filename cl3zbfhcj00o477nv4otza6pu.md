@@ -1,4 +1,12 @@
-## Lessons from interviews to first job
+---
+title: "Lessons from interviews to first job"
+datePublished: Mon Feb 25 2019 13:33:33 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhcj00o477nv4otza6pu
+slug: lessons-interviews-first-job
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/neUbjUnjXNk/upload/v1654349588873/xGhT8BCRT.jpeg
+tags: career
+
+---
 
 The hunt for my first job was a long journey. It started in late September 2018, and extended to mid February 2019. In the first phase interviews from September to November 2018, I contacted around 6 companies and was shortlisted and accepted by one of them.
 
