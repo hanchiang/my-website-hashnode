@@ -1,4 +1,12 @@
-# Automating infrastructure provisioning, configuration, and application deployment
+---
+title: "Automating infrastructure provisioning, configuration, and application deployment"
+datePublished: Sat Jul 30 2022 09:17:41 GMT+0000 (Coordinated Universal Time)
+cuid: cl67okauf04gey6nv2y7v6rkr
+slug: automating-infrastructure-provisioning-configuration-and-application-deployment
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1659172176048/S8GZWEFwU.jpg
+tags: docker, terraform, packer, infrastructure-as-code, github-actions-1
+
+---
 
 As a software engineer, I read and write application code every day. Occasionally, I get to work a little on CI/CD pipeline - Fix build issues, deploy a new application, etc. However, I have little understanding of how the entire process is orchestrated and automated.
 
