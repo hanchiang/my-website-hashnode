@@ -1,4 +1,13 @@
-## Reverse geocode cities from geographic coordinates
+---
+title: "Reverse geocode cities from geographic coordinates"
+datePublished: Thu Jul 30 2020 09:30:53 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhx100s65rnvd4u281y5
+slug: reverse-geocode-cities-from-coordinates
+canonical: https://www.yaphc.com/reverse-geocode-cities-from-coordinates
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654334072795/5HRJaC0mZ.jpg
+tags: work, reverse-geocode, map-search
+
+---
 
 Reverse geocode is used to convert latitude-longitude coordinates to a list of locations, which can then be used in search results.
 
