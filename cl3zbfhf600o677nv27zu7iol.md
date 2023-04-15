@@ -1,4 +1,11 @@
-## End of a chapter, start of the next
+---
+title: "End of a chapter, start of the next"
+datePublished: Mon Dec 31 2018 13:45:52 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhf600o677nv27zu7iol
+slug: end-of-a-chapter-start-of-the-next
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/8CqDvPuo_kI/upload/v1654350186003/fGQE3TU93.jpeg
+
+---
 
 2018 is coming to a close in a few hour's time, and this is a good time to reflect and take stock of my life. With my graduation earlier this month, I have started to shift gears with regards to the way I live my life and how I spend my time.
 
