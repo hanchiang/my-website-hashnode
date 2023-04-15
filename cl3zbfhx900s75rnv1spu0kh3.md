@@ -1,4 +1,11 @@
-## Distributed systems: A glance at designing data-intensive applications
+---
+title: "Distributed systems: A glance at designing data-intensive applications"
+datePublished: Tue Dec 10 2019 13:26:59 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhx900s75rnv1spu0kh3
+slug: distributed-systems-designing-data-intensive-applications
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654349169612/5ljJXwSs1.jpeg
+
+---
 
 It is not a surprise that designing, building and maintaining huge distributed systems is no easy feat. But for me, what is surprising is the amount of knowledge of the problems that we are solving and technology tools that fall in place to enable the successful implementation of such systems.
 
