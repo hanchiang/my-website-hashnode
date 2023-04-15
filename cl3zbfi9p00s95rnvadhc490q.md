@@ -1,4 +1,12 @@
-## Project venturebites: A portal for asia tech startup events
+---
+title: "Project venturebites: A portal for asia tech startup events"
+datePublished: Sat Jun 05 2021 04:06:15 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfi9p00s95rnvadhc490q
+slug: project-venturebites-a-portal-for-asia-tech-startup-events
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654315752890/1WOP7KWTF.jpg
+tags: side-project, serverless, nextjs
+
+---
 
 Earlier this year(2021), I worked on [Venturebites](https://www.venturebites.co/) with a friend, which is a portal for tech startup events in Asia.
 
