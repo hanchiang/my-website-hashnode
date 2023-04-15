@@ -1,4 +1,12 @@
-## First software engineering role: A year in review
+---
+title: "First software engineering role: A year in review"
+datePublished: Sun Apr 26 2020 13:15:03 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhwc00s55rnvdzbn78vw
+slug: first-software-engineering-role-review
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654347403639/FaiFSYlUK.jpeg
+tags: work, career
+
+---
 
 It has been 1 year and 2 months since I started working full time in 2019 Feb 25. Much has happened at work, especially at a small company like mine where situations and decisions can change rapidly.
 
