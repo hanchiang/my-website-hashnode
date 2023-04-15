@@ -1,4 +1,12 @@
-## jquery sparklines charts in Angular2
+---
+title: "jquery sparklines charts in Angular2"
+datePublished: Sat Feb 11 2017 14:19:36 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfgsc00rs5rnvh9528ew7
+slug: jquery-sparklines-angular2
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/IrRbSND5EUc/upload/v1654352097083/49Iz6Z45w.jpeg
+tags: jquery, angular-2, sparklines
+
+---
 
 While working on my internship project that uses Angular2, I had to display some data in a nice chart that provides some interactivity. After browsing around for a while, I settled for the jQuery Sparklines pie chart. It uses `<canvas>` to draw charts[(Should I use canvas or svg?)](https://www.sitepoint.com/canvas-vs-svg-choosing-the-right-tool-for-the-job/), is simple and provides useful tooltip information when you hover over it.
 For more info, check out the [Sparklines documentation](http://omnipotent.net/jquery.sparkline/#s-docs)
