@@ -1,4 +1,12 @@
-# Hashnode: A home for my blog
+---
+title: "Hashnode: A home for my blog"
+datePublished: Sun Jun 05 2022 12:55:16 GMT+0000 (Coordinated Universal Time)
+cuid: cl41b49nj003ol6nvb9uo8aod
+slug: hashnode-a-home-for-my-blog
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/gWlBxOAgXgQ/upload/v1654433674086/2DjziVnNu.jpeg
+tags: blogging
+
+---
 
 A few days ago, I discovered [Hashnode](https://hashnode.com), a blogging platform and community for tech folks to share knowledge and ideas.
 
