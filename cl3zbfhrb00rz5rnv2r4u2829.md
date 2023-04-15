@@ -1,4 +1,12 @@
-## In review: 3 months probation
+---
+title: "In review: 3 months probation"
+datePublished: Mon Jun 03 2019 13:29:03 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhrb00rz5rnv2r4u2829
+slug: in-review-3-months-probation
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/oXV3bzR7jxI/upload/v1654349311252/2UwapOpTf.jpeg
+tags: work, career
+
+---
 
 It has been 3 months since I started my first job, and I have to thank my manager for all the learning opportunities that are given to me, both technical and non-technical.
 
