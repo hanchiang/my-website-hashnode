@@ -1,4 +1,12 @@
-## Managing personal finance
+---
+title: "Managing personal finance"
+datePublished: Tue May 18 2021 06:42:29 GMT+0000 (Coordinated Universal Time)
+cuid: cl3zbfhv200od77nvhrjqf6tl
+slug: managing-personal-finance
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654330073656/JxoWS4L4m.jpg
+tags: finance, personal-finance
+
+---
 
 Personal finance is boundless. Whether it is optimising expenses, savings, investments, all the way to [FIRE](https://www.investopedia.com/terms/f/financial-independence-retire-early-fire.asp), there is always something interesting to talk about.
 
