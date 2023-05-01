@@ -4,7 +4,7 @@ datePublished: Fri Apr 07 2023 12:00:39 GMT+0000 (Coordinated Universal Time)
 cuid: clg6hwp10049quonvhh0da80m
 slug: stocks-notification-tradingview-webhook-to-telegram
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680860732766/aea33ad6-248c-47d4-9d65-45b1cdc403f6.jpeg
-tags: python, side-project, tradingview, telegram-bot
+tags: redis, python, side-project, tradingview, telegram-bot
 
 ---
 
