@@ -4,7 +4,7 @@ datePublished: Sun May 28 2023 13:03:22 GMT+0000 (Coordinated Universal Time)
 cuid: cli7flsua000809ml8bficoxo
 slug: reverse-engineering-cryptopanic-rest-api
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685276176582/fec37267-b5e1-46b2-8cbe-7f523767e7cd.png
-tags: aes, reverse-engineering, symmetric-encryption, cryptopanic
+tags: apis, webdev, reverse-engineering, cryptopanic
 
 ---
 
