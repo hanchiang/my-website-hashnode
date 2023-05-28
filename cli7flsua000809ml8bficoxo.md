@@ -52,7 +52,7 @@ For posts API, `t` is `news` and `n` is empty.
 
 ![Decoding posts caller](https://cdn.hashnode.com/res/hashnode/image/upload/v1685276708104/c94a9a2e-9b89-4dc0-b619-6e7da41331ce.png align="center")
 
-For dashboard API, `t` is also `news` while `n` is `rnlistrnlistrnlistrnlist`
+For dashboard API, `t` is also `news` while `n` is `rnlistrnlistrnlistrnlist`.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685276913945/ebedbcc5-304a-4737-8005-530b55508413.png align="center")
 
