@@ -54,7 +54,7 @@ For posts API, `t` is `news` and `n` is empty.
 
 For dashboard API, `t` is also `news` while `n` is `rnlistrnlistrnlistrnlist`.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685276913945/ebedbcc5-304a-4737-8005-530b55508413.png align="center")
+![Decoding dashboard caller](https://cdn.hashnode.com/res/hashnode/image/upload/v1685276913945/ebedbcc5-304a-4737-8005-530b55508413.png align="center")
 
 ### 4\. The final output
 
@@ -64,15 +64,15 @@ This is the final output of the posts and dashboard response after decrypting, d
 
 ![Dashboard normalized](https://cdn.hashnode.com/res/hashnode/image/upload/v1685277094868/a54111f0-113a-4f0e-bbf7-14f87b21e85f.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685277172266/68b886e0-959c-4b9b-9743-350803a4847c.png align="center")
+![Cryptopanic home page highlighted](https://cdn.hashnode.com/res/hashnode/image/upload/v1685277172266/68b886e0-959c-4b9b-9743-350803a4847c.png align="center")
 
 ## Try it out yourself
 
-Here is a gist that you can use to try decoding the response yourself.
+Here is a [gist](https://gist.github.com/hanchiang/ae411d08cb238ccefa0aef4b2c2899e0) that you can use to try decoding the response yourself.
 
 **How to use**
 
-1. Create an `.env` file with `CRYPTOPANIC_ENCRYPTION_KEY` and `CRYPTOPANIC_CSRF_TOKEN`,
+1. Create an `.env` file with `CRYPTOPANIC_ENCRYPTION_KEY` and `CRYPTOPANIC_CSRF_TOKEN`.
     
 2. Install the dependencies: `npm install dotenv pako crypto-js`
     
