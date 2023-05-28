@@ -8,9 +8,9 @@ tags: apis, webdev, reverse-engineering, cryptopanic
 
 ---
 
-[CryptoPanic](https://cryptopanic.com/) is a news aggregator website for trending news based on social sentiment. It's a good website for keeping up to date on the latest news, and its compact layout reminds me of hacker news.
+[CryptoPanic](https://cryptopanic.com/) is a news aggregator website for trending news based on social sentiment. It's a good website for keeping up to date on the latest news, as well as using it as a trading signal.
 
-I was looking through the network requests and got intrigued after finding out that the main data is not in plaintext:
+Its compact layout reminds me of hacker news. I was looking through the network requests and got intrigued after finding out that the main data is not in plaintext:
 
 ![Posts request encrypted data](https://cdn.hashnode.com/res/hashnode/image/upload/v1684933900016/21180fe6-5d97-48ae-abbf-a18237c27228.png align="center")
 
