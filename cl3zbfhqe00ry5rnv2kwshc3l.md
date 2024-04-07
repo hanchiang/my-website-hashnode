@@ -193,7 +193,7 @@ First, store only the necessary data in Redis, don't do a wholesale data dump. N
 
 Q: Why not store availability in Elasticsearch, then most of the complexity will be gone.
 
-A: I have asked this question at the beginning of the solution design phase. The quick win is that search and availability filter will happen at the same place, so there is no need to introduce a cache layer, saving time and money immediately.
+A: I asked this question at the beginning of the solution design phase. The quick win is that search and availability filter will happen at the same place, so there is no need to introduce a cache layer, saving time and money immediately.
 
 However, there are several drawbacks to storing availability, a fast-changing data, in Elasticsearch:
 
