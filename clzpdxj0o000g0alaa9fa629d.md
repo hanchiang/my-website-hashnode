@@ -1,5 +1,5 @@
 ---
-title: "Stocks notification: building multi-arch docker image"
+title: "Stocks notification: Building multi-arch docker image"
 datePublished: Sun Aug 11 2024 09:51:21 GMT+0000 (Coordinated Universal Time)
 cuid: clzpdxj0o000g0alaa9fa629d
 slug: stocks-notification-building-multi-arch-docker-image
