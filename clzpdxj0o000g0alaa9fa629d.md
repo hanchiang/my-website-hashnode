@@ -3,7 +3,7 @@ title: "Stocks notification: building multi-arch docker image"
 datePublished: Sun Aug 11 2024 09:51:21 GMT+0000 (Coordinated Universal Time)
 cuid: clzpdxj0o000g0alaa9fa629d
 slug: stocks-notification-building-multi-arch-docker-image
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723369831738/4660dae9-0e09-491c-8657-c3b5f340b3b1.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723369948505/ecc2f62d-143b-4eff-8439-86515e392ea4.jpeg
 tags: docker-images, arm64, multiarch
 
 ---
