@@ -14,13 +14,13 @@ I started learning Rust in 2019, left it, and only came back to it recently.
 
 ## Why systems programming?
 
-I have been doing high-level web development for 3 years, and I wanted to work with technology at a lower and deeper level, which is systems programming
+I have been doing high-level web development for 3 years, and I wanted to work with technology at a lower level.
 
 ## Why Rust?
 
 Besides being the [most-loved language](https://insights.stackoverflow.com/survey/2021) for consecutive years, Rust is designed to match the performance of C++, while providing memory safety, which is a safeguard for programmers against making such mistakes.
 
-Interestingly, it is able to do so without the use of a garbage collector, through a concept known as [ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html), and is one of the unique selling points of Rust.
+Interestingly, it is able to do so without the use of a garbage collector, through a concept known as [ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html), and this is one of the unique selling points of Rust.
 
 ## The Rust programming language book
 
@@ -68,4 +68,4 @@ I enjoyed the process of learning Rust and how memory safety is guaranteed throu
 
 I may not use it for work any time soon, however this new way of thinking about memory has helped me become more aware of what goes underneath the hood when certain types of variables are created.
 
-Also, I intend to continue exploring down the technology layers with systems programming and eventually use it as part of my work.
+It puts the fun back into programming when one needs to have forethought to write programs that work correctly.
