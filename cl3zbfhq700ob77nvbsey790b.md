@@ -64,8 +64,6 @@ These 2 chapters walk through the process of building simple projects using the 
 
 ## Summary
 
-I enjoyed the process of learning Rust and how memory safety is guaranteed through the ownership rule.
+I enjoyed the process of learning Rust. Thinking about how I handle data has made me a better programmer. It also made programming fun again.
 
-I may not use it for work any time soon, however this new way of thinking about memory has helped me become more aware of what goes underneath the hood when certain types of variables are created.
-
-It puts the fun back into programming when one needs to have forethought to write programs that work correctly.
+I may not use Rust for work anytime soon, but this new way of thinking about ownership has made me more aware of what happens behind the scenes.
