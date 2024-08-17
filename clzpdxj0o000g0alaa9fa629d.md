@@ -56,7 +56,6 @@ docker buildx create --platform linux/amd64,linux/arm64 --name amd64_arm64 --nod
 
 docker buildx build --progress=plain \
   --platform=linux/amd64,linux/arm64 \
-  --secret id=ssh_private_key,src=secret/id_rsa \
   --target=release \
   --cache-from=type=registry,ref=ghcr.io/hanchiang/market_data_notification:buildcache \
   --cache-to=type=registry,ref=ghcr.io/hanchiang/market_data_notification:buildcache,mode=max \
