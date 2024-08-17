@@ -69,7 +69,7 @@ I used this [guide](https://kumarashwinhubert.com/how-to-migrate-your-blog-from-
 
 ### Home feed
 
-The home feed comes in a 3 columns format that is commonly used in writing platforms, similar to [DEV](https://dev.to/). A navigation bar on the left, a main content block in the middle, and a utility column on the right.
+The home feed is in a three-column format, similar to [DEV](https://dev.to/). There's a navigation bar on the left, a main content block in the center, and a utility column on the right.
 
 ![hashnode home feed.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654418656381/G74KQzGIn.png align="left")
 
@@ -77,19 +77,19 @@ The home feed comes in a 3 columns format that is commonly used in writing platf
 
 ![hashnode editor.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654419583773/XPYpYZJ26.png align="left")
 
-The editor offers a clean, distraction-free space to write your content, similar to what Ghost offered. Standard content tools such as links, code snippets, and images are supported.
+The editor provides a clean, distraction-free space to write your content, much like Ghost did. It supports standard content tools such as links, code snippets, and images.
 
 **Settings flyout**
 
 ![hashnode editor flyout.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654419822450/kMT0xFJwcF.png align="left")
 
-Clicking the "**...**" and "**Settings**" on the top right will bring out the settings flyout on the right. This is where you can adjust various settings to prepare for publishing. In particular, I really like the ability to auto-generated table of contents.
+Clicking the "**...**" and "**Settings**" at the top right will open the settings flyout on the right side. Here, you can adjust various settings to get ready for publishing. I especially like the feature that auto-generates a table of contents.
 
 ![hashnode editor flyout 2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654419865418/5s88_923I.png align="left")
 
-Skipping ahead, you can also schedule your article, backdate an article, hide comments, hide article from the community.
+Skipping ahead, you can also schedule your article, backdate it, hide comments, and hide the article from the community.
 
-Hashnode does a great job of leveraging the built-in analytics for you to choose the best day to publish your post. 👍
+Hashnode does a great job of using built-in analytics to help you choose the best day to publish your post. 👍
 
 ### Dashboard
 
@@ -145,17 +145,17 @@ The table of content is displayed neatly at the top, indent according to the hea
 
 As you scroll down, the table of content sticks to the top of the page, which allows you to easily navigate to a particular section. No more scrolling up and down. A win for content discovery. 👍 This can be a huge time saver if the article is long.
 
-There is also a cool utility that allows you to select some text and share it on social media.
+There is also a handy feature that lets you select text and share it on social media.
 
 ### Run out of ideas? Request for articles comes to the rescue!
 
 ![hashnode request for articles.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654432103212/TgV1I_DOy.png align="left")
 
-One of the biggest problems writers face is brainstorming for ideas.
+One of the biggest problems writers face is coming up with ideas.
 
-Hashnode has this useful feature called [Request For Articles(RFA)](https://hashnode.com/rfa). It is a page where people request articles for various topics and writers can use this page for content ideas. What is better is that after you have written an article for a particular RFA, you can add the link to your article and it will be attached to the RFA.
+Hashnode has a useful feature called [Request For Articles (RFA)](https://hashnode.com/rfa). It's a page where people request articles on various topics, and writers can use these requests for content ideas. Even better, after you write an article for a specific RFA, you can add the link to your article, and it will be attached to the RFA.
 
-This crowdsourcing of content is a great way to generate interesting ideas and keep the engagement level within the community high.
+This crowdsourcing of content is a great way to generate interesting ideas and keep the community engaged.
 
 ### Documentation
 
@@ -173,9 +173,7 @@ It would be great to have the preview mode as a **flyout** instead of being rend
 
 ### Published/updated content not displayed when the back button is clicked
 
-I noticed that after updating an article, which brings me to the article itself, I hit the back button to return to the editor page, and the changes that were made did not show up. Instead, I see the old content as before.
-
-After refreshing the page, the changes showed up.
+I noticed that after updating an article and returning to the editor page by clicking the back button, the changes did not appear. Instead, I saw the old content. However, after refreshing the page, the changes were visible.
 
 I found out about this when I updated an article, such as checking the auto-generate table of content, returning to the editor page, making some other changes, and realised that the table of content disappeared.
 
@@ -195,13 +193,9 @@ Note that at this point of writing, Hashnode has been running for around 2 years
 
 As of now, they are still in the growth phase in which the focus is on **building and expanding** the core product, not on monetisation.
 
-After the platform has reached a certain level of maturity, the focus will shift toward **profitability**.
+After the platform has reached a certain level of maturity, the focus will shift toward **profitability**. Let's see if they will continue to support all the existing features or put some of them behind a paywall.
 
-Let's see whether they will continue to support all the features that were already built or gate some of them behind a paywall.
-
-This is important with the slowdown in the global economy, as interest rates are rising to combat inflation, leading to a general reduction in spending, including startup fundraising.
-
-I hope that the team will continue to do well like they have been doing so far, and use this platform for as long as possible.
+I hope the team continues to do well, just as they have been, and that I can use this platform for a long time.
 
 ## Join me
 
