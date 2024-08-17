@@ -139,11 +139,11 @@ You can see the number of visitors within a date range, by page, traffic source,
 
 ![hashnode post view sticky table of content.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654435577511/AnLUva5RT.png align="left")
 
-The reading experience is great too. The article page has 2 columns: A main content block that is centered, and a right sticky bar for reactions, and social sharing.
+The reading experience is great too. The article page has two columns: a main content block that is centered, and a right sticky bar for reactions and social sharing.
 
-The table of content is displayed neatly at the top, indent according to the headings.
+The table of contents is displayed neatly at the top, indented according to the headings.
 
-As you scroll down, the table of content sticks to the top of the page, which allows you to easily navigate to a particular section. No more scrolling up and down. A win for content discovery. 👍 This can be a huge time saver if the article is long.
+As you scroll down, the table of contents sticks to the top of the page, allowing you to easily navigate to a particular section. No more scrolling up and down. This is a win for content discovery and can save a lot of time if the article is long.
 
 There is also a handy feature that lets you select text and share it on social media.
 
