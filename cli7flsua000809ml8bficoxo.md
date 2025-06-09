@@ -16,7 +16,7 @@ Its compact layout reminds me of hacker news. I was looking through the network 
 
 The server sends some sort of encoded data, and the client decodes it. After digging around the js bundle, I manage to recover the plaintext data that is displayed on the website.
 
-*Note: This post is for educational purposes only.*
+*Note: This post is for educational purpose only.*
 
 ## The reverse engineering process
 
