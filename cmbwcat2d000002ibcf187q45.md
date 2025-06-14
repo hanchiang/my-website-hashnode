@@ -27,7 +27,6 @@ There is a similar workflow for crypto as well. Before the market opens, a teleg
 
 This is the [page](https://coinmarketcap.com/cryptocurrency-category/) on CoinMarketCap where I found the data for the 24-hour price change by sectors.
 
-  
 This page is server-side rendered (SSR), so there is no API request for this data when you inspect the network tab.
 
 CoinMarketCap uses NextJS, which stores the SSR data in `window.__NEXT_DATA__`, and the data we are interested in is located at `props.pageProps.data`.
@@ -40,7 +39,7 @@ You can also find it in the page source.
 
 ## Finding the API request
 
-Getting the data from HTML is okay, but having an API is better.
+Getting the data from HTML is fine, but having an API is better.
 
 In Chrome's source tab, locate the Next.js bundle under the `s2.coinmarketcap.com/cmc/_next/static/chunks/pages` folder. There, you will find `_app**.js` and `cryptocurrency-category-**.js`.
 
